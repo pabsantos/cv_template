@@ -1,56 +1,192 @@
-\documentclass{article}
+\documentclass[12pt, a4paper]{article}
 
 \usepackage{titlesec}
-\usepackage[margin=25mm]{geometry}
+\usepackage[margin=20mm]{geometry}
+\usepackage{multicol}
+\usepackage[colorlinks=true, urlcolor=blue]{hyperref}
+\usepackage{titling}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+
+
+\definecolor{nordblue}{HTML}{155259}
+
+\setlength{\parindent}{0em} % No paragraph indentation
+
+\titleformat{\section}
+{\color{nordblue}\normalsize\bfseries\uppercase}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\color{nordblue}\normalsize\bfseries}
+{}
+{0em}
+{}
+
+\titleformat{\subsubsection}[runin]
+{\color{nordblue}\bfseries}
+{}
+{0em}
+{}[:]
+
+
+\titlespacing{\section}
+{0em}{20pt}{10pt}
+
+\titlespacing{\subsection}
+{0em}{15pt}{5pt}
+
+\renewcommand{\maketitle}{
+   \begin{center}
+      \large
+      \textbf{\theauthor}
+      \small
+      \vspace{5pt}
+
+      \href{mailto:pedroaugusto@ufpr.br}{pedroaugusto@ufpr.br} --- (41) 99893 0278 --- Curitiba-PR
+      \par \href{https://www.linkedin.com/in/pabsantos/}{LinkedIn} --- \href{https://github.com/pabsantos}{GitHub} --- \href{https://www.researchgate.net/profile/Pedro-Santos-145}{ResearchGate}
+   \end{center}
+   }
 
 \author{Pedro Augusto Borges dos Santos}
 
 \begin{document}
 
-\section{Apresentação}
+\maketitle
 
 \section{Educação}
 
 \subsection{Mestrado em Planejamento Urbano}
 
-\hspace*{\fill} mar/2020 - atual
+\textbf{Instituição:} Universidade Federal do Paraná; Programa de Pós-graduação em Planejamento Urbano.
 
-Universidade Federal do Paraná
+\textbf{Período:} Mar/2020 - Mar/2022 (previsão).
 
-Programa de Pós-graduação em Planejamento Urbano (PPU-UFPR)
-
-\textbf{Dissertação:}
+\textbf{Título:} \textit{The Impact of the Built Environment on Speeding Behavior in Curitiba - Brazil}.
 
 \subsection{Graduação em Engenharia Civil}
 
-\hspace*{\fill} mar/2013 - jul/2019
+\textbf{Instituição:} Universidade Federal do Paraná.
 
-Universidade Federal do Paraná
+\textbf{Período:} Mar/2013 - Jul/2019.
 
-\textbf{Trabalho de conclusão:}
+\textbf{Título:} \textit{Microssimulação como ferramenta de análise de desempenho de interseções: Estudo de caso em Curitiba}.
 
 \section{Experiência}
 
 \subsection{Residência Técnica}
 
-\subsection{Estagiário}
+\textbf{Instituição:} Observatório Nacional de Segurança Viária.
+
+\textbf{Período:} Jan/2021 - Atual.
+
+\textbf{Projeto:} \textit{Análise estratégica da segurança viária no Brasil: um estudo para implementação do Plano Nacional de Redução de Mortes e Lesões no Trânsito}.
+
+\subsection{Analista de Pesquisa}
+
+\textbf{Instituição:} Observatório Nacional de Segurança Viária.
+
+\textbf{Período:} Mar/2020 - Dez/2020.
+
+\textbf{Atividades:} Análise de dados e produção de relatórios relacionados à área da segurança viária no Brasil.
 
 \subsection{Estagiário}
+
+\textbf{Instituição:} Observatório Nacional de Segurança Viária.
+
+\textbf{Período:} Ago/2018 - Ago/2019.
+
+\textbf{Atividades:} Coleta, processamento e análise de dados relacionados à área da segurança viária no Brasil.
+
+\subsection{Estagiário}
+
+\textbf{Instituição:} Vettor Engenharia de Projetos.
+
+\textbf{Período:} Set/2017 - Mar/2018.
+
+\textbf{Atividades:} Desenvolvimento de projetos hidrossanitários.
 
 \section{Projetos de pesquisa}
 
-\subsection{NDS}
+\subsection{Estudo Naturalístico de Direção Brasileiro}
 
-\section{Produção acadêmica}
+\textbf{Instituição:} Centro de Estudos em Planejamento e Políticas Urbanas (CEPPUR-UFPR)
 
-\subsection{Artigos}
+\textbf{Período:} Dez/2019 - Atual
 
-\subsection{Comunicações Técnicas}
+\textbf{Coordenador:} Dr. Jorge Tiago Bastos
 
-\subsection{Livros}
+\textbf{Financiamento:} CNPq; Observatório Nacional de Segurança Viária; Mobi7
 
-\subsection{Relatórios}
+%\section{Produção acadêmica}
+
+%\subsection{Artigos publicados em periódicos}
+
+%BASTOS, JORGE TIAGO ; \textbf{DOS SANTOS, PEDRO AUGUSTO B.} ; AMANCIO, EDUARDO CESAR ; GADDA, TATIANA MARIA C. ; RAMALHO, JOSÉ AURÉLIO ; KING, MARK J. ; OVIEDO-TRESPALACIOS, OSCAR . Is organized carpooling safer? Speeding and distracted driving behaviors from a naturalistic driving study in Brazil. ACCIDENT ANALYSIS AND PREVENTION, v. 152, p. 105992, 2021. \\
+
+%BASTOS, JORGE TIAGO ; \textbf{SANTOS, PEDRO AUGUSTO B. DOS} ; AMANCIO, EDUARDO CESAR ; GADDA, TATIANA MARIA C. ; RAMALHO, JOSÉ AURÉLIO ; KING, MARK J. ; OVIEDO-TRESPALACIOS, OSCAR . Naturalistic Driving Study in Brazil: An Analysis of Mobile Phone Use Behavior while Driving. International Journal of Environmental Research and Public Health, v. 17, p. 6412, 2020. 
+
+%\subsection{Artigos publicados anais de congressos}
+
+%SUGUINOSHITA, M. C. ; VALEIXO, G. R. R. ; \textbf{SANTOS, P. A. B.} ; BASTOS, JORGE TIAGO . Fatores Determinantes para o Excesso de Velocidade em Vias Arterias Urbanas. In: 2º Simpósio de Transportes do Paraná, 3º Seminários em Aeroportos e Transporte Aéreo e 3º Urbanidade., 2020, Curitiba. Livro de Resumos e Trabalhos Completos do Simpósio de Transportes do Paraná (STPR), 2020. p. 147-158. 
+
+%\subsection{Comunicações Técnicas}
+
+%BORGUEZANI, J. R. ; \textbf{SANTOS, P. A. B.} ; OSORIO, F. S. ; BASTOS, J. T. . Plataforma de coleta de dados naturalísticos de segurança viária. In: 34º Congresso de Pesquisa e Ensino em Transporte da ANPET, 2020. Anais do 34º Congresso de Pesquisa e Ensino em Transportes, 2020. p. 2610-2617. \\
+
+%\textbf{SANTOS, P. A. B.}; BASTOS, J. T. ; GARONCE, F. V. . Avaliação do Conteúdo dos Portais dos Departamentos Estaduais de Trânsito - DETRANs. In: 2º Simpósio de Transportes do Paraná, 3º Seminários em Aeroportos e Transporte Aéreo e 3º Urbanidade., 2020, Curitiba. Livro de Resumos e Trabalhos Completos do Simpósio de Transportes do Paraná (STPR), 2020. v. 1. p. 121-128. 
+
+%\subsection{Livros}
+
+%BASTOS, J. T. ; GARONCE, F. V. ; \textbf{SANTOS, P. A. B. }; IGARASHI, A. V. ; ANDRADE, G. A. M. . Desempenho brasileiro na década de ação pela segurança no trânsito: análise, perspectivas e indicadores 2011-2020. 1. ed. Brasília: Viva Editora, 2020. v. 1. 120p . 
+
+%\subsection{Resumos}
+
+%RAMALHO, JOSÉ AURÉLIO ; MEGID JUNIOR, J. ; GARONCE, F. V. ; BASTOS, JORGE TIAGO ; \textbf{SANTOS, P. A. B.} ; IGARASHI, A. V. ; RODRIGUES, F. ; OBELHEIRO, M. R. . Forgiving roadways: the Brazilian case.. In: 2nd Smart Transport Infrastructures Summit (STIS 2021), 2021, Dar es Salaam. Anais do 2nd Smart Transport Infrastructures Summit (STIS 2021), 2021.  \\
+
+%RAMALHO, J. A. ; MEGID JUNIOR, J. ; BASTOS, J. T. ; \textbf{SANTOS, P. A. B.} ; IGARASHI, A. V. . Road safety management tool: Observation, Monitoring and Action System (SOMA). In: 2nd Smart Transport Infrastructures Summit (STIS 2021), 2021, Dar es Salaam. Anais do 2nd Smart Transport Infrastructures Summit (STIS 2021), 2021. \\
+
+%BASTOS, JORGE TIAGO ; \textbf{SANTOS, P. A. B.} ; SZELIGA, R. A. ; IGARASHI, A. V. ; CHAVES, B. H. S. ; TRES, G. ; RAMALHO, JOSÉ AURÉLIO ; ROMAO, M. N. P. V. ; FERRAZ, A. C. P. . Brazilian Naturalistic Driving Study (NDS-BR). In: 2nd Smart Transport Infrastructures Summit (STIS 2021), 2021, Dar es Salaam. Anais do 2nd Smart Transport Infrastructures Summit (STIS 2021), 2021
 
 \section{Habilidades}
+
+\subsection{Programação em R:}
+
+\begin{itemize}
+   \item Análise, manipulação e visualização de dados com auxílio dos pacotes do \verb|tidyverse|;
+   \item Criação e análise de modelos estatísticos;
+   \item Análise, manipulação e visualização de dados espaciais com auxílio dos pacotes \verb|sf|, \verb|rgeos|, \verb|raster|, \verb|RQGIS|, \verb|tmap|, \verb|ggplot|, \verb|leaflet| e \verb|osmdata|;
+   \item Criação de relatórios e apresentações no R Markdown. 
+\end{itemize}
+
+\subsection{QGIS:}
+
+\begin{itemize}
+   \item Criação de mapas;
+   \item Manipulação de dados espaciais.
+\end{itemize}
+
+%\subsubsection{\LaTeX}
+
+%Criação de relatórios e apresentações.
+
+\subsubsection{Python}
+
+Manipulação básica de dados com auxílio do pacote \verb|pandas| e \verb|geopandas|
+
+\subsubsection{SQL}
+
+Execução de queries para manipualção básica em banco de dados.
+
+\subsubsection{AutoCAD}
+
+Detalhamento em projetos completentares de construção civil.
+
+%\section{Referências acadêmicas}
+%Dr. Jorge Tiago Bastos
+
+%Contato: \href{mailto:jtbastos@ufpr.br}{jtbastos@ufpr.br}
 
 \end{document}
